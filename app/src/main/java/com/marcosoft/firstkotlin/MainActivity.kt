@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
      */
 private fun variablesYConstantes(){
     //VARIABLES
-    var myFirstVariable = "Hello Hacerman!"
+    val myFirstVariable = "Hello Hacerman!"
     val myNamberOne= 2
     val myNamberTwo = 3
     val myNamberThree = myNamberOne+myNamberTwo
@@ -27,7 +27,7 @@ private fun variablesYConstantes(){
 }
 private fun tipoDeDatos(){
     //Entero
-    val myInt:Int = 1
+    val myInt = 1
     val myInt2 = 2
     val myInt3 = myInt + myInt2
     println(myInt3)
